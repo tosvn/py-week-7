@@ -83,3 +83,10 @@ except pd.errors.EmptyDataError:
     print("Error: The dataset file is empty.")
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
+
+# Conclusion & Findings
+# The mean values of numerical features (like petal length) may vary slightly across species.
+
+# Some species tend to have longer or shorter petals or sepals.
+
+# Based on the visualizations, you may notice clusters in the scatter plot, which could indicate relationships between the features.
